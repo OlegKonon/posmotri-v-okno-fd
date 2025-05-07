@@ -79,7 +79,8 @@ ol {
 
 .result__video {
   width: 100%;
-  object-fit: contain;
+  height: 100%;
+  object-fit: cover;
   object-position: center;
   cursor: pointer;
 }
@@ -301,7 +302,7 @@ ol {
 }
 
 .more-button {
-  width: 99.9%;
+  width: 99.5%;
   margin-bottom: 6px;
   padding: 6px 0;
 }
